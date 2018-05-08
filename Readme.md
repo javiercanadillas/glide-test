@@ -21,7 +21,7 @@ import:
   - package: github.com/sh3lld00m/go-sample-package
     version: master
     subpackages:
-    - myutil
+    - samplepackage
 ```
 
 To instruct glide to fetch the dependencies, run:
@@ -60,7 +60,7 @@ import:
   - package: github.com/sh3lld00m/go-sample-package
     version: devel
     subpackages:
-    - myutil
+    - samplepackage
 ```
 
 Then, have Glide update and install the branch version of the samplepackage package, and then build and run again:
